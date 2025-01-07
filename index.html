@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat & Watch Movie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Video Section -->
+        <div class="video-section">
+            <h2>Watch Movie on Tubi</h2>
+            <iframe id="tubi-player" src="https://tubitv.com/movies/1234567" 
+                    width="800" height="450" frameborder="0" allowfullscreen>
+            </iframe>
+        </div>
+
+        <!-- Chat Section -->
+        <div class="chat-section">
+            <h2>Chat Room</h2>
+            <div id="chat-box" class="chat-box">
+                <div id="messages"></div>
+            </div>
+            <input type="text" id="message-input" placeholder="Type a message...">
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
